@@ -19,8 +19,8 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .content-section-heading h2 {
@@ -214,8 +214,8 @@ h6 {
 }
 
 .service-icon {
-  background-color: #fff;
-  color: #322E34;
+  background-color:#322E34;;
+  color: white;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -224,6 +224,11 @@ h6 {
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+.service-icon:hover {
+   background-color: #4aaaa5;
+}
+
 
 .callout {
   padding: 15rem 0;
@@ -268,7 +273,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
@@ -304,15 +309,15 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(74,170,165, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
 }
 
 footer.footer .social-link {
@@ -329,7 +334,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #4aaaa5;
   text-decoration: none;
 }
 
@@ -348,8 +353,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #434d4c !important;
+  border-color: #434d4c !important;
 }
 
 .btn-secondary {
@@ -382,5 +387,5 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #322E34 !important;
 }
